@@ -2051,9 +2051,9 @@
     storybook "^6.2.9"
     styled-system "^5.1.5"
 
-"@pantherswap-libs/uikit@^0.1.1":
+"@pancakeswap-libs/uikit@^0.1.1":
   version "0.1.1"
-  resolved "https://registry.npmjs.org/@pantherswap-libs/uikit/-/uikit-0.1.1.tgz"
+  resolved "https://registry.npmjs.org/@pancakeswap-libs/uikit/-/uikit-0.1.1.tgz"
   integrity sha512-ymEKLfLSyD/HDq+C2PwUSbcG3DlBu7IQNutTnCwVgtpmYrK/TchfTJ4lCNG09y4kDgDoCLMwYjnTIaTYFgLN6w==
   dependencies:
     "@types/lodash" "^4.14.162"
