@@ -5,7 +5,7 @@ const pools: PoolConfig[] = [
      sousId: 0,
      tokenName: 'HUSKY',
      stakingTokenName: QuoteToken.HUSKY,
-     stakingTokenAddress: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
+     stakingTokenAddress: '0xb96C05eC0c4e9a57a4964EB9FB110b2a9326273f',
      contractAddress: {
        97: '0x9d8816326De18cAf8FBbDBE2201Ce84d59edCc6b',
        56: '0x729D48B8D628FbF752E399dc42203DB0a10BcdFe',
