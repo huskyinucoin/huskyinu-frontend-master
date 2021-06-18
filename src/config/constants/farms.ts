@@ -4,7 +4,7 @@ import { FarmConfig, QuoteToken } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 1,
-    risk: 5,
+    risk: 4,
     lpSymbol: 'HUSKY-BUSD LP',
     lpAddresses: {
       97: '',
