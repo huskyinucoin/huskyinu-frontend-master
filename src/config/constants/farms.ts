@@ -4,16 +4,16 @@ import { FarmConfig, QuoteToken } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 1,
-    risk: 4,
+    risk: 40,
     lpSymbol: 'HUSKY-BUSD LP',
     lpAddresses: {
-      97: '',
-      56: '0x584200eaa0F0d603301Af3aFc7f5CbBbA887756E',
+      97: '0x9492975770086c7415bCf01a1A6EAD37CC178b5e',
+      56: '0x9492975770086c7415bCf01a1A6EAD37CC178b5e',
     },
     tokenSymbol: 'HUSKY',
     tokenAddresses: {
-      97: '',
-      56: '0xb96C05eC0c4e9a57a4964EB9FB110b2a9326273f',
+      97: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
+      56: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -28,8 +28,8 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'HUSKY',
     tokenAddresses: {
-      97: '',
-      56: '0xb96C05eC0c4e9a57a4964EB9FB110b2a9326273f',
+      97: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
+      56: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -42,10 +42,10 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
     },
-    tokenSymbol: 'BNB',
+    tokenSymbol: 'HUSKY',
     tokenAddresses: {
-      97: '',
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+      97: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
+      56: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -53,16 +53,16 @@ const farms: FarmConfig[] = [
 
   {
     pid: 3,
-    risk: 5,
+    risk: 65,
     lpSymbol: 'HUSKY-EGG LP',
     lpAddresses: {
       97: '',
       56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
     },
-    tokenSymbol: 'BNB',
+    tokenSymbol: 'HUSKY',
     tokenAddresses: {
-      97: '',
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+      97: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
+      56: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -76,10 +76,10 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
     },
-    tokenSymbol: 'BNB',
+    tokenSymbol: 'HUSKY',
     tokenAddresses: {
-      97: '',
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+      97: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
+      56: '0xefd492eac38c1475200080ab7acc02c6d9209a9d',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
