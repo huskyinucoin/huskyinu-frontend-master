@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract CakeToken",
-        "name": "_cake",
+        "internalType": "contract HUSKYINU",
+        "name": "_HUSKYINU",
         "type": "address"
       }
     ],
@@ -245,7 +245,7 @@
     "name": "cake",
     "outputs": [
       {
-        "internalType": "contract CakeToken",
+        "internalType": "contract HUSKYINU",
         "name": "",
         "type": "address"
       }
