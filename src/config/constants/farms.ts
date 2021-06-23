@@ -23,8 +23,8 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'HUSKY-BNB LP',
     lpAddresses: {
-      97: '',
-      56: '0x3156B469819F852F82E6DA679539Bab59D2B2Cf7',
+      97: '0xf0490ca3fcc5ace42f3261e705dd0b393bfbe116',
+      56: '0xf0490ca3fcc5ace42f3261e705dd0b393bfbe116',
     },
     tokenSymbol: 'HUSKY',
     tokenAddresses: {
