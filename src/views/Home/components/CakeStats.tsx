@@ -29,9 +29,9 @@ const CakeStats = () => {
   const farms = useFarms();
   const cakeSupply = totalSupply ? getBalanceNumber(totalSupply) - getBalanceNumber(burnedBalance) : 0
 
-  let mofiPerBlock = 10;
-  if(farms && farms[0] && farms[0].mofiPerBlock){
-    mofiPerBlock = new BigNumber(farms[0].mofiPerBlock).div(new BigNumber(10).pow(18)).toNumber();
+  let HUSKYPerBlock = 10;
+  if(farms && farms[0] && farms[0].HUSKYPerBlock){
+    HUSKYPerBlock = new BigNumber(farms[0].HUSKYPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
   return (
@@ -50,7 +50,7 @@ const CakeStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(540, 'New HUSKY/block')}</Text>
-          <Text bold fontSize="14px">{mofiPerBlock}</Text>
+          <Text bold fontSize="14px">{HUSKYPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>

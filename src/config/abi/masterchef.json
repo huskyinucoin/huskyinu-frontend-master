@@ -3,7 +3,7 @@
 		"inputs": [
 			{
 				"internalType": "contract HUSKYINU",
-				"name": "_mofi",
+				"name": "_HUSKY",
 				"type": "address"
 			},
 			{
@@ -18,7 +18,7 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "_mofiPerBlock",
+				"name": "_HUSKYPerBlock",
 				"type": "uint256"
 			},
 			{
@@ -149,7 +149,7 @@
 			{
 				"indexed": false,
 				"internalType": "uint256",
-				"name": "mofiPerBlock",
+				"name": "HUSKYPerBlock",
 				"type": "uint256"
 			}
 		],
@@ -338,7 +338,7 @@
 	},
 	{
 		"inputs": [],
-		"name": "mofiPerBlock",
+		"name": "HUSKYPerBlock",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -375,7 +375,7 @@
 				"type": "address"
 			}
 		],
-		"name": "pendingmofi",
+		"name": "pendingHUSKY",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -548,7 +548,7 @@
 		"inputs": [
 			{
 				"internalType": "uint256",
-				"name": "_mofiPerBlock",
+				"name": "_HUSKYPerBlock",
 				"type": "uint256"
 			}
 		],
