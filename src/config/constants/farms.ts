@@ -4,7 +4,7 @@ import { FarmConfig, QuoteToken } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 1,
-    risk: 40,
+    risk: 2,
     lpSymbol: 'HUSKY-BUSD LP',
     lpAddresses: {
       97: '0x9492975770086c7415bCf01a1A6EAD37CC178b5e',
@@ -20,11 +20,11 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 0,
-    risk: 5,
+    risk: 2,
     lpSymbol: 'HUSKY-BNB LP',
     lpAddresses: {
-      97: '0xf0490ca3fcc5ace42f3261e705dd0b393bfbe116',
-      56: '0xf0490ca3fcc5ace42f3261e705dd0b393bfbe116',
+      97: '0xd7f95b93dbe3e1d8a484fe3b9d9649ae25e8e1ee',
+      56: '0xd7f95b93dbe3e1d8a484fe3b9d9649ae25e8e1ee',
     },
     tokenSymbol: 'HUSKY',
     tokenAddresses: {
@@ -36,7 +36,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 2,
-    risk: 3,
+    risk: 1,
     lpSymbol: 'BNB-BUSD LP',
     lpAddresses: {
       97: '',
@@ -53,7 +53,7 @@ const farms: FarmConfig[] = [
 
   {
     pid: 3,
-    risk: 65,
+    risk: 15,
     lpSymbol: 'HUSKY-EGG LP',
     lpAddresses: {
       97: '',
@@ -70,7 +70,7 @@ const farms: FarmConfig[] = [
 
   {
     pid: 4,
-    risk: 5,
+    risk: 10,
     lpSymbol: 'HUSKY-SUSHI LP',
     lpAddresses: {
       97: '',
